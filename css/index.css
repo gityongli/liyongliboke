@@ -47,6 +47,12 @@ section{
     height:500px;
     margin-top:50px;
 }
+/*-------------------------------------------*/
+.h5{
+    text-align: center;
+    color:#07c1f7;
+}
+
 .carousel-indicators li{
     background:black;
     width:15px;
@@ -58,16 +64,15 @@ section{
     height:15px;
 }
 .zhuan li{
-    width: 120px;
+    width: 100px;
     height:35px;
     background: #07c1f7;
     margin-top:5px;
-    margin-right:10px;
+    text-align: center;
 }
 .zhuan li a{
     line-height:35px;
     color: white;
-    margin-left: 25px;
     text-decoration: none;
 }
 .zhuan li:hover {
@@ -81,8 +86,14 @@ section{
      color:#000;
 }
 .span1{
-    color:red;
+    color:#07c1f7;
     font-size: 20px;
+}
+.about_p{
+    font-size: 12px;
+}
+.m_p{
+    color:#07c1f7;
 }
 /*---------------------------------------*/
 .box img{
@@ -145,13 +156,13 @@ footer .container{
 footer .p1{
     height:30px;
     line-height:60px;
-    color:#504d50;
+    color:#666;
     text-align: center;
 }
 footer .p2{
     height:30px;
     line-height:40px;
-    color:#504d50;
+    color:#666;
     text-align: center;
 
 }
