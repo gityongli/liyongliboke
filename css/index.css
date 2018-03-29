@@ -3,14 +3,26 @@ body{
     padding: 0;
     /*background:#f3ece6;*/
 }
+/*导航开始*/
 #header{
     width: 98%;
 }
 #logo{
     background:#07c1f7!important;
 }
+.logo1{
+    height: 50px;
+    line-height: 50px;
+
+}
+.logo1 a{
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+}
 section{
-    background:url("../images/body_bg.jpg")no-repeat;
+    background:url("../images/body_bg.jpg") no-repeat;
     margin-top: 10px;
     padding-top: 10px;
     background-attachment: fixed;
@@ -22,37 +34,39 @@ section{
     margin-top:-15px;
 }
 .navbar{
-    background:#07c1f7;
+    background:#07c1f7!important;
 }
 #list .navbar-nav a{
     color:#fff;
-    font-size:20px;
+    font-size:16px;
 }
 #list .navbar-nav a:hover{
     background:#f3ece6;
     color:#000;
 }
+/*导航结束*/
+/*轮播图开始*/
 #banner1{
     background: url("../images/b1.jpg");
     height:500px;
-    margin-top:50px;
+    margin-top: 50px;
 }
 #banner2{
     background: url("../images/b2.jpg");
     height:500px;
-    margin-top:50px;
+    margin-top: 50px;
 }
 #banner3{
     background: url("../images/b3.jpg");
     height:500px;
-    margin-top:50px;
+    margin-top: 50px;
 }
+/*轮播图结束*/
 /*-------------------------------------------*/
 .h5{
     text-align: center;
     color:#07c1f7;
 }
-
 .carousel-indicators li{
     background:black;
     width:15px;
@@ -77,10 +91,10 @@ section{
 }
 .zhuan li:hover {
     transform: rotate(360deg) scale(1);
-    -o-transform: rotate(360deg) scale(1);
-    -moz-transform:rotate(360deg) scale(1);
-    -webkit-transform: rotate(360deg) scale(1);
-    -ms-transform:rotate(360deg) scale(1);
+    -o-transform: rotate(360deg) scale(1);/*苹果*/
+    -moz-transform:rotate(360deg) scale(1);/*火狐*/
+    -webkit-transform: rotate(360deg) scale(1);/*谷歌*/
+    -ms-transform:rotate(360deg) scale(1);/*ie*/
      transition:1s;
      background: #ffa0e3;
      color:#000;
@@ -143,7 +157,7 @@ section{
 .main2{
     margin-top: 30px;
 }
-/*------------------------------------*/
+/*--------------footer部分----------------------*/
 footer{
     width: 100%;
     background:#07c1f7;
@@ -176,3 +190,4 @@ footer .p2{
         background-size:100% 100%;
     }
 }
+/*--------------footer部分----------------------*/
