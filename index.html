@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!--导航开始-->
@@ -62,6 +65,7 @@
     </div>
 </div>
 <!--轮播图结束-->
+<!--内容部分开始-->
 <article>
     <div class="container">
         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -97,6 +101,62 @@
         </div>
     </div>
 </article>
+<aside>
+    <div class="container">
+        <div class="bs-example">
+            <div class="row">
+                <div class="col-sm-4">
+                    <!-- normal -->
+                    <div class="ih-item circle effect1">
+                        <a href="javascript:;">
+                            <div class="spinner"></div>
+                            <div class="img"><img src="images/hover2.jpg" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h3>Heading here</h3>
+
+                                    <p>Description goes here</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end normal -->
+                </div>
+                <div class="col-sm-4">
+                    <!-- colored -->
+                    <div class="ih-item circle colored effect1">
+                        <a href="javascript:;">
+                            <div class="spinner"></div>
+                            <div class="img"><img src="images/hover5.jpg" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end colored -->
+                </div>
+                <div class="col-sm-4">
+                    <!-- normal -->
+                    <div class="ih-item circle effect1">
+                        <a href="javascript:;">
+                            <div class="spinner"></div>
+                            <div class="img"><img src="images/hover2.jpg" alt="img"></div>
+                            <div class="info">
+                                <div class="info-back">
+                                    <h3>Heading here</h3>
+
+                                    <p>Description goes here</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end normal -->
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
 <section>
     <div id="main1">
         <div class="container">
@@ -146,10 +206,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-12" id="top_1">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="row">
+                            <div class="row top11">
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <ul class="zhuan list-inline list-unstyled">
                                         <li><a href="#">首页欣赏</a></li>
@@ -189,7 +249,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-xs-6">
-                            <div class="thumbnail">
+                            <div class="thumbnail" id="thumbnail">
                                 <img src="images/bo1.jpg" alt="" id="img1"/>
                             </div>
                         </div>
@@ -237,7 +297,8 @@
                             <div class="he_ZoomInImg">
                                 <img class="he_ZoomInImg_img" src="images/xiangmu1.jpg" alt="Image 01">
                                 <div class="he_ZoomInImg_caption">
-                                    <h3 class="he_ZoomInImg_caption_h"><a href="../dianshangydd/index.html">海尔移动端</a></h3>
+                                    <h3 class="he_ZoomInImg_caption_h"><a href="../dianshangydd/index.html">海尔移动端</a>
+                                    </h3>
                                     <p class="he_ZoomInImg_caption_p"><a href="../dianshangydd/index.html">海尔移动端</a></p>
                                     <a class="he_border2_caption_a" href="../dianshangydd/index.html"></a>
                                 </div>
@@ -253,8 +314,10 @@
                             <div class="he_ZoomOutImg">
                                 <img class="he_ZoomOutImg_img" src="images/xiangmu1.jpg" alt="Image 01">
                                 <div class="he_ZoomOutImg_caption">
-                                    <h3 class="he_ZoomOutImg_caption_h"><a href="../bjhongshitong/index.html">企业网站</a></h3>
-                                    <p class="he_ZoomOutImg_caption_p"><a href="../bjhongshitong/index.html">企业网站</a></p>
+                                    <h3 class="he_ZoomOutImg_caption_h"><a href="../bjhongshitong/index.html">企业网站</a>
+                                    </h3>
+                                    <p class="he_ZoomOutImg_caption_p"><a href="../bjhongshitong/index.html">企业网站</a>
+                                    </p>
                                     <a class="he_ZoomOutImg_caption_a" href="../bjhongshitong/index.html"></a>
                                 </div>
                             </div>
@@ -268,9 +331,12 @@
                             <div class="he_slideCaptionDown">
                                 <img class="he_slideCaptionDown_img" src="images/xiangmu2.jpg" alt="Image 01">
                                 <div class="he_slideCaptionDown_caption">
-                                    <h3 class="he_slideCaptionDown_caption_h"><a href="../invitation.github.io/index.html">邀请函</a></h3>
-                                    <p class="he_slideCaptionDown_caption_p"><a href="../invitation.github.io/index.html">邀请函</a></p>
-                                    <a class="he_slideCaptionDown_caption_a" href="../invitation.github.io/index.html"></a>
+                                    <h3 class="he_slideCaptionDown_caption_h"><a
+                                            href="../invitation.github.io/index.html">邀请函</a></h3>
+                                    <p class="he_slideCaptionDown_caption_p"><a
+                                            href="../invitation.github.io/index.html">邀请函</a></p>
+                                    <a class="he_slideCaptionDown_caption_a"
+                                       href="../invitation.github.io/index.html"></a>
                                 </div>
                             </div>
                         </div>
@@ -413,16 +479,19 @@
         </div>
     </div>
 </section>
+<!--内容部分结束-->
+<!--footer部分开始-->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-6 col-xs-12">
                 <p class="p1">Design by：Emily 备案号：甘ICP备20180320号-9 </p>
-                <p class="p2">phone:15076690274  QQ:2508112607  WX:AB15613776900  Emial:15076690274@163.com</p>
+                <p class="p2">phone:15076690274 QQ:2508112607 WX:AB15613776900 Emial:15076690274@163.com</p>
             </div>
         </div>
     </div>
 </footer>
+<!--footer部分结束-->
 </body>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
