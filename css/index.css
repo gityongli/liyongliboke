@@ -71,6 +71,24 @@ section{
 }
 /*轮播图结束*/
 /*-------------------------------------------*/
+.h_11 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 100px;
+    height: 30px;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    display: none;
+}
+#thumbnail_1 img.hover .h_11{
+    display: block;
+    color: red;
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
 .h5{
     text-align: center;
     color:#07c1f7;
